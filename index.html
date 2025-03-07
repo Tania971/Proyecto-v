@@ -1,79 +1,250 @@
 <!DOCTYPE Html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Primer Pagina Web</title>
-        <meta/> 
-        <link rel="stylesheet" href="stylos.css">
-    </head>
-    <body>  
-       
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta />
+    <title>Proyecto3nivel</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/stylos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/section-carosel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- prueba de nav-->
+
+    <header class="header">
+        <div class="header__info">
+            <p>¡"Los sabores que te harán sentir bien" Llama ahora al <span class="phone-number">+58 4241384558</span> para
+                disfrutar de lo mejor del medio Oriente, 'Siempre querrás más</p>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <a class="navbar__logo" href="index.html">
+                    <img src="imagenes1/T-removebg-preview.png" alt="logo empresa">
+                    <span>
+                        Sabor del Medio Oriente
+                    </span>
+                </a>
+                <div class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__link link-active">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#conect">Menu</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Servicios</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#fin">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="navbar__search" action="">
+                        <a class="search__icon" href="#">
+                            <img src="<svg xmlns=" http://www.w3.org/2000/svg" color="#3c122c" width="16" height="16"
+                                fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                            <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z" />
+                            <path
+                                d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z" />
+                            </svg>
+                        </a>
+                    </form>
+                    <a class="button button-primary button-saber-mas" href="#">¡Saber más!</a>
+                    <button class="navbar__toggle-btn" aria-label="Toggle Navigation">
+                        <img src="<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                          </svg>" alt="Menu">
+                    </button>
+                    <div class="navbar__mobile-menu">
+                        <ul class="nav__list-mobile">
+                            <li class="nav__link-mobile link-active">
+                                <a href="#">Inicio</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Menu</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Servicios</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- fin de prueba -->
+
+    <div id="sfc2yyhqnnqfgsa3155wkk6twpszfp36f36"></div>
+    <script type="text/javascript"
+        src="https://counter6.optistats.ovh/private/counter.js?c=2yyhqnnqfgsa3155wkk6twpszfp36f36&down=async"
+        async></script><br><a href="https://www.contadorvisitasgratis.com"></a><noscript><a
+            href="https://www.contadorvisitasgratis.com" title="contador de visitas blog"><img
+                src="https://counter6.optistats.ovh/private/contadorvisitasgratis.php?c=2yyhqnnqfgsa3155wkk6twpszfp36f36"
+                border="0" title="contador de visitas blog" alt="contador de visitas blog"></a></noscript>
+
+    <section class="carousel-section">
+        <article class="carousel__sections-cards container">
+            <div class="section__card show">
+                <div class="section__card-content">
+                    <h1 class="section__card-title">Bienvenidos a sabor de Oriente</h1>
+                    <p class="section__card-text">En Sabor Oriental, nos orgullecemos por ofrecerte la mejor de las satisfacciones con nuestro variado y apetitoso menú, Nuestro compromiso es ofrecerte lo
+                         mejor de nuestra cultura gastronómica.</p>
+                    <div class="section__card-buttons">
+                        <a class="button button-primary" href="#">Comprar ahora</a>
+                        <a class="button button-secondary" href="#">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="section__card-imgs">
+                    <div class="section__card-img">
+                        <img src="imgs/imag1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section__card">
+                <div class="section__card-content">
+                    <h1 class="section__card-title">¡Tu Restaurat de confianza!</h1>
+                    <p class="section__card-text">Descubre la deliciosa explosión de sabores en cada bocado. Desde
+                        lasjugosas aceitunas, las cremosas salsas hasta los exóticas pos, cada fruta que encontrarás en nuestra frutería ha
+                        sido seleccionada cuidadosamente para garantizar la máxima calidad y frescura.</p>
+                    <div class="section__card-buttons">
+                        <a class="button button-primary" href="#">Comprar ahora</a>
+                        <a class="button button-secondary" href="#">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="section__card-imgs">
+                    <div class="section__card-img">
+                        <img src="imgs/imag2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section__card">
+                <div class="section__card-content">
+                    <h1 class="section__card-title">Deliciosa explosión de sabores</h1>
+                    <p class="section__card-text">¡Explora nuestras secciones déjate llevar por el mundo de los
+                        sabores naturales! Estamos aquí para satisfacer tus necesidades frutales y hacer que cada
+                        visita sea una experiencia única.</p>
+                    <div class="section__card-buttons">
+                        <a class="button button-primary" href="#">Comprar ahora</a>
+                        <a class="button button-secondary" href="#">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="section__card-imgs">
+                    <div class="section__card-img">
+                        <img src="imgs/imag3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-control">
+                <a class="carousel__control prev" href="#"><i class="bi bi-arrow-left"></i></a>
+                <a class="carousel__control next" href="#"><i class="bi bi-arrow-right"></i></a>
+            </div>
+        </article>
+    </section>
     </div>
-        <div class="agrupar">
-            <header>
-                <h1>Mi Comida Favorita
-                </h1> 
-            </header>
-            <nav class="menu"> 
-                <ul>
-                    <li> Principal</li>
-                    <li> Ayuda</li>
-                    <li>  contactos</li>
-                </ul>
-            </nav >
-            <sections  class="seccion">
-                <article>
-                    <hgroup>
-                    <h1>Chaguarmas</h1> 
-                    <h2>Platillo  Arabe</h2>
-                    </hgroup>
-                 
-                   <time datetime="Publicado el 02/01/2025">Publicado el 02/01/2025 </time>
-                   <p> Una auténtica y deliciosa comida rápida de Medio Oriente, que por su expansión mundial hoy amamos comer en Argentina y muchos países de sudamérica. Esta excelencia típica tiene como base una carne de cordero especiada y adobada por horas.
-                    Si bien <small> la carne más tradicional utilizada en este plato es el cordero</small>, hoy en día es muy común encontrar el shawarma de vaca o pollo. Después y una vez cocida, la carne se corta en tiritas y se puede cocinar asada.</p>
-                    <footer>
-                        <h4>hechos a Base: Carnes </h4>
-                        <img src="imagenes1/shawa.jpg"/>
-                    </footer>
-                    <Address>
+
+    <div class="agrupar">
+        <header class="cabeza">
+            <h1>Comida del medio Oriente - طعام الشرق الأوسط
+            </h1>
+
+        </header>
+        <!-- <nav class="menu">
+            <ul>
+                <li> Principal</li>
+                <li> Ayuda</li>
+                <li> contactos</li>
+            </ul>
+        </nav> -->
+
+        <section class="seccion">
+            <article>
+                <hgroup>
+                    <h1>Chaguarmas</h1>
+                    <h2 id="conect">Platillo Arabe </h2>
+                </hgroup>
+                <!-- <div class="bloque"> -->
+                <time datetime="Publicado el 02/01/2025">Publicado el 02/01/2025 </time>
+                <p> Una auténtica y deliciosa comida rápida de Medio Oriente, que por su expansión mundial hoy amamos
+                    comer
+                    en Argentina y muchos países de sudamérica. Esta excelencia típica tiene como base una carne de
+                    cordero
+                    especiada y adobada por horas.
+                    Si bien <small> la carne más tradicional utilizada en este plato es el cordero</small>, hoy en día
+                    es
+                    muy común encontrar el shawarma de vaca o pollo. Después y una vez cocida, la carne se corta en
+                    tiritas
+                    y se puede cocinar asada.</p>
+                <footer>
+                    <h4>hechos a Base: Carnes </h4>
+                    <img src="imagenes1/shawa.jpg" />
+                    <img src="imagenes1/shaw1.jpg" />
+                </footer>
+                <Address>
                     <a href="https://www.paulinacocina.net/receta-shawarma/27008">
                         Visita Recetas</a>
-                    </Address>
-                </article>
-                
-                <article>
-                    <hgroup>
+                </Address>
+                <!-- </div> -->
+            </article>
+
+            <article>
+                <hgroup>
                     <H1>Falafel</H1>
                     <h2>Delicia mediterranea</h2>
-                    </hgroup>
-                    
-                  <time datetime="Publicado el 02/01/2025">Publicado el 02/01/2025 </time>
-                  <p>El falafel es un clásico de la cocina árabe, unas sabrosas croquetas de garbanzos ideales para compartir. Preparadas con garbanzos remojados, cebolla, perejil, ajo, cilantro, especias y harina, se fríen hasta dorar y se sirven con salsa de yogurt o hummus. Deliciosas y versátiles.</p>
-                 <footer>
+                </hgroup>
+                <!-- <div class="bloque1"> -->
+                <time datetime="Publicado el 02/01/2025">Publicado el 02/01/2025 </time>
+                <p>El falafel es un clásico de la cocina árabe, unas sabrosas croquetas de garbanzos ideales para
+                    compartir.
+                    Preparadas con garbanzos remojados, cebolla, perejil, ajo, cilantro, especias y harina, se fríen
+                    hasta
+                    dorar y se sirven con salsa de yogurt o hummus. Deliciosas y versátiles.</p>
+                <footer>
                     <h4>Base: Garbanzos Molidos</h4>
-                    <img src="imagenes1/falafel.jpg"/>
-                 </footer>
-                 <address>
-                 <a href="https://www.recetas-arabes.com/recetas/entradas/falafel">
-                     Visita Recetas</a>
-                 </address>
-    
-                </article>
-    
+                    <img src="imagenes1/falafel.jpg" />
+                    <img src="imagenes1/falafel1.jpg" />
+                </footer>
+                <address>
+                    <a href="https://www.recetas-arabes.com/recetas/entradas/falafel">
+                        Visita Recetas</a>
+                </address>
+                <!-- </div> -->
+
+            </article>
+
             </sections>
             <aside>
-                <blockquote cite="http://google.com">
-                    mensaje1
-                     </blockquote> 
-                     <blockquote cite="https://www.recetas-arabes.com/recetas/entradas/falafel">
-                      menseaje2
-                     </blockquote>
-            </aside>
-            <footer >
-                <h5> Autor Tania Valero, curso de programacion 2024-2025 
-                </h5>
-            </footer>
-        </div>
-    </body>
-</html>
+                <blockquote cite="http://google.com"> Visitanos فرحة ذوقك
+                </blockquote>
+                <blockquote cite="https://www.recetas-arabes.com/recetas/entradas/falafel"> Aprende con Nosotros تعلم
+                    معنا
 
+                </blockquote>
+            </aside>
+
+
+            <footer class="autor">
+                <h4 id="fin"><a href="https://github.com/Tania971/"> Autor Tania Valero, curso de programacion 2024-2025 </a>
+                </h4>
+            </footer>
+    </div>
+    <script src="java.js"></script>
+
+
+</body>
+
+</html>
